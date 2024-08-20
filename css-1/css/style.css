@@ -1,0 +1,129 @@
+/* BOX-SIZING | OVERFLOW */
+
+/*
+body{
+    background: lightblue;
+    margin: 0;
+}
+
+.container {
+    width: 150px;
+    height: 150px;
+    background: white;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 36px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    Para que el texto no se divida en varias líneas
+} 
+*/
+/*--------------------------*/
+
+/* POSITION: ABSOLUTE */
+
+/* body{
+    background: lightblue;
+}
+
+.parent {
+    border: 5px solid #000;
+    width: 250px;
+    height: 250px;
+    box-sizing: border-box;
+    position: relative; 
+}
+
+.container {
+    background: #09f;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+} */
+
+/*--------------------------*/
+
+/* POSITION: FIXED*/
+/* 
+body{
+    background: lightblue;
+}
+
+.parent {
+    border: 5px solid #000;
+    width: 250px;
+    height: 250px;
+    box-sizing: border-box;
+}
+
+.container {
+    background: #09f;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+} */
+
+/*--------------------------*/
+
+/* POSITION: STICKY*/
+
+/* body{
+    background: lightblue;
+}
+
+.parent {
+    border: 5px solid #000;
+    width: 250px;
+    height: 500px;
+    box-sizing: border-box;
+}
+
+.container {
+    background: #09f;
+    width: 100px;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    right: 0;
+} */
+
+/*--------------------------*/
+
+/* Z-INDEX*/
+
+body{
+    padding-top: 200px;
+}
+
+div{
+    border: 1px solid;
+    opacity: .9;
+    width: 200px;
+    height: 200px;
+    background: #09f;
+    margin-top: -100px;
+    box-shadow: 0 0 5px #000000dd;
+    position: relative;
+}
+
+div:first-child {
+    background: yellow;
+    z-index: 2;
+}
+
+div:nth-child(2){
+    background: blue;
+    z-index: 1;
+}
+
+div:last-child {
+    background: red;
+    z-index: 3;
+}
+
+/*--------------------------*/

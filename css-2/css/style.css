@@ -1,0 +1,28 @@
+/* display: inline (se comporta como texto sin afectarle ancho ni altura)
+ display: flex (estable el funcionamineto del contenedor y no en sus elementos(hijos) )
+*/
+
+body{
+    background: lightgray;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    border: 1px solid;
+    opacity: .9;
+    width: 100px;
+    height: 100px;
+    background: #09f;
+}
+
+.item:first-child {
+    background: yellow;
+}
+
+.item:last-child {
+    background: red;
+}
